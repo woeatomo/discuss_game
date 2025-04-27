@@ -504,3 +504,55 @@
 #8 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
 #9 {main}
 "} 
+[2025-04-27 07:11:24] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:210)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(135): Illuminate\\Log\\LogManager->resolve()
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(122): Illuminate\\Log\\LogManager->get()
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\\Log\\LogManager->error()
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(49): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(185): Illuminate\\Routing\\Pipeline->handleException()
+#6 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#8 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#9 /workspaces/discuss_game/public/index.php(15): Illuminate\\Foundation\\Http\\Kernel->handle()
+#10 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#11 {main}
+"} 
+[2025-04-27 07:11:24] laravel.ERROR: Undefined constant Illuminate\Http\Request::HEADER_X_FORWARDED_ALL {"exception":"[object] (Error(code: 0): Undefined constant Illuminate\\Http\\Request::HEADER_X_FORWARDED_ALL at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php:911)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\\Container\\Container->build()
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(881): Illuminate\\Container\\Container->resolve()
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\\Foundation\\Application->resolve()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(866): Illuminate\\Container\\Container->make()
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(169): Illuminate\\Foundation\\Application->make()
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#6 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#7 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#8 /workspaces/discuss_game/public/index.php(15): Illuminate\\Foundation\\Http\\Kernel->handle()
+#9 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#10 {main}
+"} 
+[2025-04-27 07:11:24] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:210)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(135): Illuminate\\Log\\LogManager->resolve()
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(122): Illuminate\\Log\\LogManager->get()
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\\Log\\LogManager->error()
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(200): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(272): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#6 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#7 {main}
+"} 
+[2025-04-27 07:11:24] laravel.ERROR: Undefined constant Illuminate\Http\Request::HEADER_X_FORWARDED_ALL {"exception":"[object] (Error(code: 0): Undefined constant Illuminate\\Http\\Request::HEADER_X_FORWARDED_ALL at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php:911)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\\Container\\Container->build()
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(881): Illuminate\\Container\\Container->resolve()
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\\Foundation\\Application->resolve()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(866): Illuminate\\Container\\Container->make()
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(239): Illuminate\\Foundation\\Application->make()
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(203): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware()
+#6 /workspaces/discuss_game/public/index.php(18): Illuminate\\Foundation\\Http\\Kernel->terminate()
+#7 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#8 {main}
+"} 
