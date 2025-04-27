@@ -222,3 +222,45 @@
 #24 /workspaces/discuss_game/artisan(16): Illuminate\\Foundation\\Console\\Kernel->handle()
 #25 {main}
 "} 
+[2025-04-27 06:55:23] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:210)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(135): Illuminate\\Log\\LogManager->resolve()
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(122): Illuminate\\Log\\LogManager->get()
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\\Log\\LogManager->error()
+#4 /workspaces/discuss_game/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report()
+#6 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 /workspaces/discuss_game/artisan(16): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2025-04-27 06:55:23] laravel.ERROR: Database connection [] not configured. {"exception":"[object] (InvalidArgumentException(code: 0): Database connection [] not configured. at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php:173)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(136): Illuminate\\Database\\DatabaseManager->configuration()
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(101): Illuminate\\Database\\DatabaseManager->makeConnection()
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(211): Illuminate\\Database\\DatabaseManager->connection()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(167): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->getConnection()
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(722): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(138): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Support/helpers.php(260): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#7 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(157): retry()
+#8 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(114): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->repositoryExists()
+#9 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(82): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#10 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(636): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#11 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(102): Illuminate\\Database\\Migrations\\Migrator->usingConnection()
+#12 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#13 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#15 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#16 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(661): Illuminate\\Container\\BoundMethod::call()
+#17 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call()
+#18 /workspaces/discuss_game/vendor/symfony/console/Command/Command.php(291): Illuminate\\Console\\Command->execute()
+#19 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Console/Command.php(153): Symfony\\Component\\Console\\Command\\Command->run()
+#20 /workspaces/discuss_game/vendor/symfony/console/Application.php(1014): Illuminate\\Console\\Command->run()
+#21 /workspaces/discuss_game/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand()
+#22 /workspaces/discuss_game/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#23 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
+#24 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run()
+#25 /workspaces/discuss_game/artisan(16): Illuminate\\Foundation\\Console\\Kernel->handle()
+#26 {main}
+"} 
