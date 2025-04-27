@@ -107,3 +107,118 @@
 #7 /workspaces/discuss_game/artisan(16): Illuminate\\Foundation\\Console\\Kernel->handle()
 #8 {main}
 "} 
+[2025-04-27 06:31:50] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:210)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(135): Illuminate\\Log\\LogManager->resolve()
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(122): Illuminate\\Log\\LogManager->get()
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\\Log\\LogManager->error()
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#6 /workspaces/discuss_game/artisan(16): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2025-04-27 06:31:50] laravel.ERROR: Class "App\Providers\EventServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"App\\Providers\\EventServiceProvider\" not found at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:206)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(689): Illuminate\\Foundation\\ProviderRepository->load()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /workspaces/discuss_game/artisan(16): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2025-04-27 06:32:45] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:210)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(135): Illuminate\\Log\\LogManager->resolve()
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(122): Illuminate\\Log\\LogManager->get()
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\\Log\\LogManager->error()
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#6 /workspaces/discuss_game/artisan(16): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2025-04-27 06:32:45] laravel.ERROR: Class "App\Providers\RouteServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"App\\Providers\\RouteServiceProvider\" not found at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:206)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(689): Illuminate\\Foundation\\ProviderRepository->load()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(265): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /workspaces/discuss_game/artisan(16): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2025-04-27 06:33:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:210)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(135): Illuminate\\Log\\LogManager->resolve()
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(122): Illuminate\\Log\\LogManager->get()
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\\Log\\LogManager->error()
+#4 /workspaces/discuss_game/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report()
+#6 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 /workspaces/discuss_game/artisan(16): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2025-04-27 06:33:56] laravel.ERROR: Target class [App\Http\Kernel] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Http\\Kernel] does not exist. at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php:891)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\\Container\\Container->build()
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(881): Illuminate\\Container\\Container->resolve()
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\\Foundation\\Application->resolve()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\\Container\\Container->Illuminate\\Container\\{closure}()
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\\Container\\Container->build()
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(881): Illuminate\\Container\\Container->resolve()
+#6 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\\Foundation\\Application->resolve()
+#7 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(866): Illuminate\\Container\\Container->make()
+#8 /workspaces/discuss_game/vendor/laravel/sanctum/src/SanctumServiceProvider.php(133): Illuminate\\Foundation\\Application->make()
+#9 /workspaces/discuss_game/vendor/laravel/sanctum/src/SanctumServiceProvider.php(60): Laravel\\Sanctum\\SanctumServiceProvider->configureMiddleware()
+#10 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#11 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#13 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#14 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(661): Illuminate\\Container\\BoundMethod::call()
+#15 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(954): Illuminate\\Container\\Container->call()
+#16 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(935): Illuminate\\Foundation\\Application->bootProvider()
+#17 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#18 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(936): array_walk()
+#19 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#20 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(265): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#21 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith()
+#22 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#23 /workspaces/discuss_game/artisan(16): Illuminate\\Foundation\\Console\\Kernel->handle()
+#24 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Http\\Kernel\" does not exist at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php:889)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\\Container\\Container->build()
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(881): Illuminate\\Container\\Container->resolve()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\\Foundation\\Application->resolve()
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\\Container\\Container->Illuminate\\Container\\{closure}()
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\\Container\\Container->build()
+#6 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(881): Illuminate\\Container\\Container->resolve()
+#7 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\\Foundation\\Application->resolve()
+#8 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(866): Illuminate\\Container\\Container->make()
+#9 /workspaces/discuss_game/vendor/laravel/sanctum/src/SanctumServiceProvider.php(133): Illuminate\\Foundation\\Application->make()
+#10 /workspaces/discuss_game/vendor/laravel/sanctum/src/SanctumServiceProvider.php(60): Laravel\\Sanctum\\SanctumServiceProvider->configureMiddleware()
+#11 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Sanctum\\SanctumServiceProvider->boot()
+#12 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#14 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#15 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(661): Illuminate\\Container\\BoundMethod::call()
+#16 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(954): Illuminate\\Container\\Container->call()
+#17 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(935): Illuminate\\Foundation\\Application->bootProvider()
+#18 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#19 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(936): array_walk()
+#20 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#21 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(265): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#22 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith()
+#23 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#24 /workspaces/discuss_game/artisan(16): Illuminate\\Foundation\\Console\\Kernel->handle()
+#25 {main}
+"} 
