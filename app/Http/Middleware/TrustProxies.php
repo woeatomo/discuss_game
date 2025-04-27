@@ -19,5 +19,7 @@ class TrustProxies extends Middleware
      *
      * @var int
      */
-    protected $headers = Request::HEADER_X_FORWARDED_ALL;
+    protected $headers = Request::HEADER_X_FORWARDED_AWS_ELB; // Gunakan konstanta ini untuk AWS ELB
+    // Jika Anda tidak menggunakan AWS ELB, gunakan:
+    // protected $headers = -1; // Untuk mendeteksi semua header proxy
 }
