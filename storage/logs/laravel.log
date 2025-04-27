@@ -608,3 +608,95 @@
 #7 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
 #8 {main}
 "} 
+[2025-04-27 11:32:25] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:210)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\\Log\\LogManager->error('Target class [A...', Array)
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(49): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Illuminate\\Contracts\\Container\\BindingResolutionException))
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(185): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Illuminate\\Contracts\\Container\\BindingResolutionException))
+#6 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#12 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#13 /workspaces/discuss_game/public/index.php(15): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#14 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('/workspaces/dis...')
+#15 {main}
+"} 
+[2025-04-27 11:32:25] laravel.ERROR: Target class [App\Http\Middleware\PreventRequestsDuringMaintenance] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Http\\Middleware\\PreventRequestsDuringMaintenance] does not exist. at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php:891)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(881): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(866): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(169): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#11 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#12 /workspaces/discuss_game/public/index.php(15): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#13 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('/workspaces/dis...')
+#14 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Http\\Middleware\\PreventRequestsDuringMaintenance\" does not exist at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php:889)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct('App\\\\Http\\\\Middle...')
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(881): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(866): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(169): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#6 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#12 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#13 /workspaces/discuss_game/public/index.php(15): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#14 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('/workspaces/dis...')
+#15 {main}
+"} 
+[2025-04-27 11:32:25] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:210)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\\Log\\LogManager->error('Target class [A...', Array)
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(200): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Illuminate\\Contracts\\Container\\BindingResolutionException))
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(272): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Illuminate\\Contracts\\Container\\BindingResolutionException))
+#6 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(Object(Illuminate\\Contracts\\Container\\BindingResolutionException))
+#7 {main}
+"} 
+[2025-04-27 11:32:25] laravel.ERROR: Target class [App\Http\Middleware\PreventRequestsDuringMaintenance] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Http\\Middleware\\PreventRequestsDuringMaintenance] does not exist. at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php:891)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(881): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(866): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(239): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(203): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /workspaces/discuss_game/public/index.php(18): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('/workspaces/dis...')
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Http\\Middleware\\PreventRequestsDuringMaintenance\" does not exist at /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php:889)
+[stacktrace]
+#0 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct('App\\\\Http\\\\Middle...')
+#1 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#2 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(881): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#3 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#4 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(866): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#5 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(239): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#6 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(203): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /workspaces/discuss_game/public/index.php(18): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 /workspaces/discuss_game/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('/workspaces/dis...')
+#9 {main}
+"} 
